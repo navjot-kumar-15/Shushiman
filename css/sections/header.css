@@ -16,6 +16,21 @@
   z-index: -1;
 }
 
+.header__menu.change {
+  width: 30%;
+  height: 32%;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  z-index: 99;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+.header__menu.change li {
+  margin-top: 1rem;
+  text-align: center;
+}
 .header__logo h4 {
   padding-left: 30px;
 

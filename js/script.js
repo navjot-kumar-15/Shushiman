@@ -14,6 +14,12 @@ AOS.init({
   offset: 100,
 });
 
+const bar = document.querySelector(".menu");
+const menu = document.querySelector(".header__menu");
+bar.addEventListener("click", function () {
+  menu.classList.toggle("change");
+});
+
 const trendingSushis = [
   "Make Sushi",
   "Nigiri Sushi",

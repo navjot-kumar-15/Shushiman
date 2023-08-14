@@ -166,6 +166,12 @@ a {
 }
 /* END: about us media queries */
 
+@media screen and (min-width: 900px) {
+  .change {
+    display: none;
+  }
+}
+
 /* START: header media querie */
 @media screen and (max-width: 900px) {
   .header__nav {
@@ -174,6 +180,9 @@ a {
 
   .header__menu {
     display: none;
+  }
+  .change {
+    display: block;
   }
 
   .header__menu-mobile {

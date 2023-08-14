@@ -1,3 +1,3 @@
 # Shushiman
 
-URL: navjot-kumar-sushiman.netlify.app
+Link: navjot-kumar-sushiman.netlify.app
